@@ -49,7 +49,7 @@ class BottomButtons extends StatelessWidget {
 class AuthTextField extends StatelessWidget {
   final String authValue;
   final TextEditingController controller;
-  AuthTextField({required this.authValue, required this.controller});
+  AuthTextField({required this.authValue, required this.controller, required bool obscure});
 
   @override
   Widget build(BuildContext context) {

@@ -54,6 +54,7 @@ class HomeScreen extends StatelessWidget {
             start: auth.start,
             cancel: auth.cancel,
             checkMail: auth.checkMail,   /// add
+            createAccount: auth.createAccount, email: '',  /// add2
           )
           )
         ],

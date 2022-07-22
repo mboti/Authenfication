@@ -20,7 +20,7 @@ class AuthMailForm extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               FormTitle(title: "Adresse mail"),
-              AuthTextField(authValue: "email", controller: mailController),
+              AuthTextField(authValue: "email", controller: mailController, obscure: false,),
               BottomButtons(onValidate: () {
                 final email = mailController.text;
                 if (_globalKey.currentState!.validate()) {
